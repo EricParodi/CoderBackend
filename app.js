@@ -9,7 +9,6 @@ const productManager = new ProductManager('productos.json');
 
 app.use(express.json());
 
-// Endpoint para obtener productos con soporte para limitar los resultados
 app.get('/products', async (req, res) => {
   try {
     const { limit } = req.query;
@@ -26,7 +25,6 @@ app.get('/products', async (req, res) => {
   }
 });
 
-// Endpoint para obtener un producto por su ID
 app.get('/products/:pid', async (req, res) => {
   try {
     const productId = parseInt(req.params.pid);
