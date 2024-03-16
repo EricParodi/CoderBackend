@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Producto Nuevo",
+    "description": "Descripción del producto nuevo",
+    "price": 9.99,
+    "thumbnail": "url_de_la_imagen",
+    "code": "123456",
+    "stock": 10,
+    "category": "Categoria del producto",
+    "id": "1710538543886",
+    "status": true
+  }
+]
